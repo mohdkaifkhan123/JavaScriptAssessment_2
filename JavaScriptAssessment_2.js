@@ -2,7 +2,7 @@
 //8.Remove Duplicate Items from Array using reduce function.
 /* Explanation : 
    To remove duplicate items from an array using the reduce() function in JavaScript, we can follow below approach
-   In this code we can that the reduce() function is used to iterate over the array. The accumulator (uniqueArray) intializes
+   In this code we can see that the reduce() function is used to iterate over the array. The accumulator (uniqueArray) intializes
    as an empty array [], and for each element currentElement in the array, it checks if uniqueArray already contains the element 
    using the includes() method. If the element is not already present, it is pushed into uniqueArray. The reduce() function returns the final uniqueArray after all iterations.*/
 
@@ -61,7 +61,7 @@ console.log(isArray({ key: "value" })); // Output: false
 //Question 11
 //11.Write a JavaScript function to sort the following array of objects by title value. 
 /* Explanation:
-   To sort the given array of objects by the title value in JavaScript, you can use the Array.prototype.sort() method along with a custom comparison function.
+   To sort the given array of objects by the title value in JavaScript, you can use the sort() method along with a custom comparison function.
    In this code, the sortUsingTitle() function takes the array of objects as input. Inside the function, the sort() method is used on the array with a custom
    comparison function. The comparison function compares the title values of the objects.
    By converting both title values to lowercase using toLowerCase(), we ensure that the sorting is case-insensitive. The comparison function then returns -1 
